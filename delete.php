@@ -9,6 +9,8 @@ if (isset($_GET["id"])) {
      $connection=new mysqli($servername,$username,$password,$database);
      $sql="DELETE FROM clients WHERE id=$id";
      $connection->query($sql);
+     header("location:/myshop/indx.php");
+     exit;
     # code...
 }
 

@@ -149,7 +149,7 @@ if (!empty($successMessage)) {
 <a type="submit" class="btn btn-primary" href="/myshop/index.php" role="button">Cancel</a>
             
                 
-    
+            </div>
             
         </form>
     </div>
