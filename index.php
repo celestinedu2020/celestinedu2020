@@ -12,7 +12,7 @@
 <h2>List of Clients</h2>
 <a class="btn btn-primary" href="/myshop/create.php" role="button">New Client</a>
 <br>
-<table class="table">
+<table class="table" >
     <thead>
     <tr>
         <th>ID</th>
@@ -61,7 +61,7 @@ use LDAP\Result;
         <td>$row[create_at]</td>
         <td>
             <a class='btn btn-primary btn-sm' href='/myshop/edit.php?id=$row[id]'>Edit</a>
-            <a class='btn btn-primary btn-sm' href='/myshop/delet.php?id=$row[id]'>Delet</a>
+            <a class='btn btn-danger btn-sm' href='/myshop/delet.php?id=$row[id]'>Delet</a>
         </td>
         </tr>
         ";

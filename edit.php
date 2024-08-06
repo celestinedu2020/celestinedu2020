@@ -101,7 +101,7 @@ else {
         }
         ?>
         <form method="post">
-            <input type="hiden" value="<?php echo $id; ?>">
+            <input type="hiden" name="id" value="<?php echo $id; ?>">
         
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Name</label>
